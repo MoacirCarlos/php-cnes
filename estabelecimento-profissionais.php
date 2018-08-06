@@ -1,10 +1,5 @@
 <?php
-
-error_reporting(E_ALL); 
-ini_set("display_errors", 1); 
-
-include "ws-security.php";
-
+	include "ws-security.php";
 ?>
 
 <!DOCTYPE html>
