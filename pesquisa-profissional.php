@@ -33,7 +33,7 @@
 	                    )
 	                );
 
-	$result = $client->__soapCall($function, $arguments, $options);
+	$result = $client->__soapCall($function, $arguments);
 
 	print("<pre>".print_r($result,true)."</pre>");
 ?>
